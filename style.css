@@ -1,0 +1,119 @@
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 234, 234);
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+
+li{
+    display: inline-block;
+    padding: 5px 20px;
+    list-style: none;
+}
+
+
+.carousel{
+display: flex;
+align-items: center;
+margin: 0;
+padding: 30px;
+border-radius: 10px;
+background-color: rgb(248, 234, 234);
+}
+
+.carousel img{
+    max-width: 500px;
+}
+
+
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #ca0a54);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+
+}
+
+
+.product{
+    display: flex;
+    justify-content: space-between;
+}
+
+.watch, .bag, .shoes{
+    padding: 10px 30px;
+    width: 23%;
+    border-radius: 10px;
+}
+
+.watch{
+    background-image: linear-gradient(to bottom, #f7e711 0%, #c79a05);
+}
+
+.bag{
+    background-image: linear-gradient(to bottom, #fc0202 0%, #700202);
+}
+
+.shoes{
+    background-image: linear-gradient(to bottom, #1b02fc 0%, #13035a);
+}
+
+
+.card-deck{
+display: flex;
+justify-content: space-between;
+}
+
+.main-card{
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 8px 8px 12px lightgray;
+    border-radius: 10px;
+
+}
+
+.card img{
+    width: 320px;
+}
+
+.input{
+    background-color: rgb(248, 234, 234);
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h6{
+    color: rgb(94, 93, 93);
+}
+
+button{
+    padding: 8px 12px;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, #08d823 0%, #013513);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}
